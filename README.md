@@ -1,4 +1,3 @@
-
 # Telecom Customer Churn Prediction
 
 ## 1. Project Overview
@@ -135,7 +134,7 @@ Generated visualizations are stored in `results/figures/`.
 ### Step 1: Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/MdMohibulHoque/telecom-customer-churn-prediction.git
 ```
 
 ### Step 2: Open the project folder
