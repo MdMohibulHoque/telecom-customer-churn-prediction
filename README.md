@@ -46,9 +46,8 @@ Download the CSV dataset and place it in:
 CA2_Telco_Churn_Project/
 │
 ├── data/
-│   ├── raw/
-│   └── processed/
-│       └── telco_churn_cleaned.csv
+│   ├── raw/                  # Original dataset (not uploaded)
+│   └── processed/            # Cleaned dataset (not uploaded)
 │
 ├── notebooks/
 │   └── CA2_Telco_Churn_Prediction.ipynb
@@ -57,12 +56,19 @@ CA2_Telco_Churn_Project/
 │
 ├── results/
 │   ├── figures/
+│   │   ├── 01_churn_distribution.png
+│   │   ├── 02_churn_by_contract.png
+│   │   ├── 09_model_comparison.png
+│   │   └── 10_roc_curve_comparison.png
+│   │
 │   └── model_comparison.csv
 │
 ├── .gitignore
 ├── README.md
 └── requirements.txt
 ```
+
+**Note:** The raw and processed datasets are excluded from this repository. Download the original dataset from the Kaggle source linked above and place it in `data/raw/` before running the notebook.
 
 ## 6. Exploratory Data Analysis
 
